@@ -124,3 +124,4 @@ def PredictTrials(X, y, fitter, data):
 
     # Display price range
     print "\nRange in prices: ${:,.2f}".format(max(prices) - min(prices))
+    print "Average price: ${:,.2f}".format(np.average(prices))
